@@ -30,8 +30,6 @@ export default function TravelItem(props) {
           {props.description}
         </p>
       </div>
-
-      <hr className="horizontal-rule" />
     </div>
   );
 }
