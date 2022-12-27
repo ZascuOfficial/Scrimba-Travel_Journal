@@ -10,7 +10,7 @@ export default function TravelItem(props) {
       />
 
       <div className="item-details">
-        <span className="material-symbols-outlined" id='location-icon'>location_on</span>
+        <span className='material-symbols-outlined location-icon'>location_on</span>
 
         <p className="item-location">{props.location}</p>
         <a
