@@ -3,11 +3,13 @@ import React from 'react';
 export default function TravelItem(props) {
   return (
     <div className="travel-item">
-      <img
-        src={props.img}
-        alt="travel-item-image"
-        className="item-img"
-      />
+      <a href={props.img} target="_blank">
+        <img
+          src={props.img}
+          alt="travel-item-image"
+          className="item-img"
+        />
+      </a>
 
       <div>
         <div className='item-details'>
