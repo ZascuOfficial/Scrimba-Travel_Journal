@@ -1,6 +1,6 @@
 import React from 'react';
 
-import locationIcon from '../../../public/icons/location-icon.png';
+import locationIcon from '../../assets/location-icon.png';
 
 export default function TravelItem(props) {
   return (

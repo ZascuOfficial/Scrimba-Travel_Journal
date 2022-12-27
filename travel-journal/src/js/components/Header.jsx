@@ -1,6 +1,6 @@
 import React from 'react';
 
-import earthIcon from '../../../public/icons/earth-icon.png';
+import earthIcon from '../../assets/earth-icon.png';
 
 export default function Header() {
   return (
