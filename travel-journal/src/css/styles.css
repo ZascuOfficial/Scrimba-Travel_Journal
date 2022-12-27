@@ -86,7 +86,8 @@ body {
 }
 
 .item-link {
-  margin-left: 25px;
+  margin-left: auto;
+  margin-right: 20px;
   color: var(--dark-cyan);
 }
 
