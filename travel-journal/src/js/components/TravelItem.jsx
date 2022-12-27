@@ -1,7 +1,5 @@
 import React from 'react';
 
-import locationIcon from '../../assets/location-icon.png';
-
 export default function TravelItem(props) {
   return (
     <div className="travel-item">
@@ -12,11 +10,7 @@ export default function TravelItem(props) {
       />
 
       <div className="item-details">
-        <img
-          src={locationIcon}
-          alt="location-icon"
-          className="location-icon"
-        />
+        <span className="material-symbols-outlined">location_on</span>
 
         <p className="item-location">{props.location}</p>
         <a href={props.link} className="item-link">View on Google Maps</a>
