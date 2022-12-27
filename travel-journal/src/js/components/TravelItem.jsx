@@ -10,10 +10,16 @@ export default function TravelItem(props) {
       />
 
       <div className="item-details">
-        <span className="material-symbols-outlined">location_on</span>
+        <span className="material-symbols-outlined" id='location-icon'>location_on</span>
 
         <p className="item-location">{props.location}</p>
-        <a href={props.link} className="item-link">View on Google Maps</a>
+        <a
+          href={props.link}
+          target="_blank"
+          className="item-link"
+        >
+          View on Google Maps
+        </a>
 
         <h3 className="item-title">{props.title}</h3>
 
@@ -24,6 +30,8 @@ export default function TravelItem(props) {
           {props.description}
         </p>
       </div>
+
+      <hr className="horizontal-rule" />
     </div>
   );
 }
