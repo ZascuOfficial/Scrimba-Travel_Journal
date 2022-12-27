@@ -23,7 +23,7 @@ body {
 
 .container {
   width: 750px;
-  margin: 15px auto;
+  margin: 10px auto;
   background-color: var(--mid-gray);
   border: 5px solid var(--dark-gray);
 }
